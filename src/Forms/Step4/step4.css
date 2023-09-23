@@ -1,0 +1,65 @@
+.step4 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 87%, 0.151);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan h4 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.fnsh_Info {
+    display: flex;
+    flex-direction: column;
+}
+
+.fnsh_Info p {
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.fnsh_Info p:hover {
+    cursor: pointer;
+    color: rgb(72, 62, 255);
+}
+
+.step4 hr {
+    width: 100%;
+    background-color: hsla(0, 0%, 87%, 0.151);
+    border-color: hsla(0, 0%, 87%, 0.151);
+}
+
+.add_on {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.add_on p {
+    font-size: 0.9rem;
+}
+
+.add_on .price {
+    color: hsl(220, 3%, 23%);
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total h3 {
+    color: hsl(243, 100%, 62%);
+}

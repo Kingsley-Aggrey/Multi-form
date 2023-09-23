@@ -1,0 +1,45 @@
+.con {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+}
+
+.con img {
+    width: 3rem;
+}
+
+.con h2 {
+    color: hsl(243, 53%, 22%);
+}
+
+.con p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+@media all and (max-width: 850px) {
+    .con {
+        width: 92%;
+        position: absolute;
+        left: 1rem;
+        right: 1rem !important;
+        top: 6.5rem;
+        border-radius: 10px;
+        flex-grow: 1;
+        bottom: 0 !important;
+        height: 50%;
+        padding: 1rem;
+    }
+
+    .con p {
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.step1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.step1 input {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid hsl(206, 94%, 87%);
+}
+
+.step1 input:active {
+    border-color: hsl(228, 78%, 44%);
+}
