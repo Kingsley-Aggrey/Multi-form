@@ -63,23 +63,7 @@ const Step2 = ({ currentActiveStep, setCurrentActiveStep, Info, setInfo }) => {
                 ...plan
             }
         });
-
-        console.log(selectedPlan)
     }
-
-    // if (document.isConnected) {
-    //     const list = document.querySelectorAll(".card")
-
-    //     list?.forEach(element => {
-    //         if (element.children[1].children[0].textContent === Info.selectedPlan?.title) {
-    //             element.classList.add("cardActive")
-    //         }
-    //     })
-    // }
-
-    // window.onload((e) => {
-    //     
-    // })
 
     useEffect(() => {
         setCurrenData(Plans.MonthlyPlans)

@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Multi-form solution](https://github.com/Kingsley-Aggrey/Multi-form)
+- Live Site URL: [multi-form site](https://multi-form-challenge.netlify.app/)
 
 ## My process
 
